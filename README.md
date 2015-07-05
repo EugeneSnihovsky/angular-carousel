@@ -5,16 +5,16 @@ An adaptive carousel based on angularJS directive.
 ## Installation
 You can install directive via bower
 ```sh
-    $ bower install angular-es-carousel
+$ bower install angular-es-carousel
 ```
 Add dependences to your **html** file
 ```html
-    <script src="/bower_components/angular-es-carousel/js/esCarousel.js"></script>
-    <link rel="stylesheet" href="/bower_components/angular-es-carousel/css/carousel.css"/>
+<script src="/bower_components/angular-es-carousel/js/esCarousel.js"></script>
+<link rel="stylesheet" href="/bower_components/angular-es-carousel/css/carousel.css"/>
 ```
 Don't forget add **'carousel'** module to your angular dependences.
 ```javascript
-    angular.module('appName', ['carousel']);
+angular.module('appName', ['carousel']);
 ```
 ## Usage
 Carousel has three display modes that are specified by element attribute **es-carousel**.
