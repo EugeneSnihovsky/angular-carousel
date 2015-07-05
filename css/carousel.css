@@ -1,0 +1,299 @@
+
+.el-carousel {
+  width: 100%;
+  margin: 0;
+  position: relative;
+  z-index: 20;
+}
+
+.el-carousel .el-card {
+  position: absolute;
+  background: rgba(141, 141, 141, 0.5);
+  border:1px #e0e0e0 solid;
+  border-radius:1px;
+  box-shadow: 0 0 0 4px rgba(107, 108, 40, 0.25), 0 0 0 5px rgba(183, 183, 183, 0.6);
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  z-index: 5;
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+.el-carousel .sm-el-card-1 {
+  height: 65%;
+  width: 23%;
+  left: 6%;
+  bottom: 1%;
+  z-index: 20;
+}
+
+.el-carousel .sm-el-card-2 {
+  height: 70%;
+  width: 25%;
+  left: 2%;
+  bottom: 7%;
+  opacity: 0;
+}
+
+.el-carousel .sm-el-card-3 {
+  height: 70%;
+  width: 25%;
+  left: 2%;
+  bottom: 7%;
+  z-index: 20;
+  opacity: 0.8;
+
+}
+
+.el-carousel .sm-el-card-4 {
+  height: 84%;
+  width: 30%;
+  left: 35%;
+  bottom: 14%;
+  z-index: 20;
+  opacity: 1;
+  background: rgba(141, 141, 141, 0.7);
+}
+
+.el-carousel .sm-el-card-5 {
+  height: 70%;
+  width: 25%;
+  left: 73%;
+  bottom: 7%;
+  z-index: 20;
+  opacity: 0.8;
+}
+
+.el-carousel .sm-el-card-6 {
+  height: 70%;
+  width: 25%;
+  left: 73%;
+  bottom: 7%;
+  opacity: 0;
+}
+
+.el-carousel .sm-el-card-7 {
+  height: 65%;
+  width: 23%;
+  left: 70.5%;
+  bottom: 1%;
+}
+
+.el-carousel .sm-el-card-8 {
+  height: 77%;
+  width: 27%;
+  left: 33%;
+  bottom: 8%;
+}
+
+.el-carousel .sm-el-card-hide {
+  height: 77%;
+  width: 27%;
+  left: 33%;
+  bottom: 8%;
+  opacity: 0;
+}
+
+
+
+.el-carousel .md-el-card-4 {
+  height: 57%;
+  width: 14%;
+  left: 2%;
+  bottom: 7%;
+  z-index: 20;
+  opacity: 0.6;
+
+}
+
+.el-carousel .md-el-card-5 {
+  height: 71%;
+  width: 16%;
+  left: 20.5%;
+  bottom: 11%;
+  z-index: 20;
+  opacity: 0.8;
+}
+
+.el-carousel .md-el-card-6 {
+  height: 84%;
+  width: 19%;
+  left: 40.5%;
+  bottom: 14%;
+  z-index: 20;
+  opacity: 1;
+  background: rgba(141, 141, 141, 0.7);
+}
+
+.el-carousel .md-el-card-7 {
+  height: 71%;
+  width: 16%;
+  left: 63.75%;
+  bottom: 11%;
+  z-index: 20;
+  opacity: 0.8;
+}
+
+.el-carousel .md-el-card-8 {
+  height: 57%;
+  width: 14%;
+  left: 84%;
+  bottom: 7%;
+  z-index: 20;
+  opacity: 0.6;
+}
+
+.el-carousel .md-el-card-9 {
+  height: 57%;
+  width: 14%;
+  left: 84%;
+  bottom: 7%;
+  opacity: 0;
+}
+
+.el-carousel .md-el-card-10 {
+  height: 67%;
+  width: 15%;
+  left: 62%;
+  bottom: 7%;
+}
+
+.el-carousel .md-el-card-1 {
+  height: 78%;
+  width: 18%;
+  left: 38.7%;
+  bottom: 9.5%;
+}
+
+.el-carousel .md-el-card-2 {
+  height: 67%;
+  width: 15%;
+  left: 18.7%;
+  bottom: 7%;
+}
+
+.el-carousel .md-el-card-3 {
+  height: 57%;
+  width: 14%;
+  left: 2%;
+  bottom: 7%;
+  opacity: 0;
+}
+
+.el-carousel .md-el-card-hide {
+  height: 78%;
+  width: 18%;
+  left: 38.7%;
+  bottom: 9.5%;
+  opacity: 0;
+}
+
+.el-carousel .lg-el-card-1 {
+  height: 78.7%;
+  width: 15%;
+  left: 40.5%;
+  bottom: 10%;
+}
+
+.el-carousel .lg-el-card-2 {
+  height: 65%;
+  width: 13%;
+  left: 23.5%;
+  bottom: 7%;
+}
+
+.el-carousel .lg-el-card-3 {
+  height: 52%;
+  width: 11%;
+  left: 9%;
+  bottom: 3%;
+}
+
+.el-carousel .lg-el-card-4 {
+  height: 33%;
+  width: 7%;
+  left: 1%;
+  bottom: 4%;
+  z-index: 10;
+  opacity: 0.4;
+}
+
+.el-carousel .lg-el-card-5 {
+  height: 57%;
+  width: 12%;
+  left: 10%;
+  bottom: 7%;
+  z-index: 20;
+  opacity: 0.6;
+
+}
+
+.el-carousel .lg-el-card-6 {
+  height: 71%;
+  width: 14%;
+  left: 25%;
+  bottom: 11%;
+  z-index: 20;
+  opacity: 0.8;
+}
+
+.el-carousel .lg-el-card-7 {
+  height: 84%;
+  width: 16%;
+  left: 42%;
+  bottom: 14%;
+  z-index: 20;
+  opacity: 1;
+  background: rgba(141, 141, 141, 0.7);
+}
+
+.el-carousel .lg-el-card-8 {
+  height: 71%;
+  width: 14%;
+  left: 61%;
+  bottom: 11%;
+  z-index: 20;
+  opacity: 0.8;
+}
+
+.el-carousel .lg-el-card-9 {
+  height: 57%;
+  width: 12%;
+  left: 78%;
+  bottom: 7%;
+  z-index: 20;
+  opacity: 0.6;
+}
+
+.el-carousel .lg-el-card-10 {
+  height: 33%;
+  width: 7%;
+  left: 91.32%;
+  bottom: 4%;
+  z-index: 10;
+  opacity: 0.4;
+}
+
+.el-carousel .lg-el-card-11 {
+  height: 52%;
+  width: 11%;
+  left: 77%;
+  bottom: 3%;
+}
+
+.el-carousel .lg-el-card-12 {
+  height: 65%;
+  width: 13%;
+  left: 59.5%;
+  bottom: 7%;
+}
+
+.el-carousel .lg-el-card-hide {
+  height: 78.7%;
+  width: 15%;
+  left: 40.5%;
+  bottom: 10%;
+  opacity: 0;
+}
